@@ -118,7 +118,7 @@ int main()
 {
     struct timespec begin,end;
     clock_gettime(CLOCK_MONOTONIC, &begin);
-    if (FSDKE_OK != FSDK_ActivateLibrary("HMGN4CkTERu0sktE6QbCrt/MS68qKuT5LQy35r6RbMNh1eBowWlj+RY9fHbg2jsuvH06uQdo4SkRDFHn0sU7KAzb0EevK/+l8qClcJZZIMUf2dP+FYwxlXdYFLr13oR95GwU5GHv+pPC0tVkOBbM0FMxO4Hn6gHnM3v5+gAOkDQ=")) {
+    if (FSDKE_OK != FSDK_ActivateLibrary("key")) {
 
         printf("Please run the License Key Wizard (Start - Luxand - FaceSDK - License Key Wizard)\\n");
         printf("Error activating FaceSDK");
